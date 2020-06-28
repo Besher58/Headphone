@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    background: #2e2e2e;
+}
+.nav{
+    display: flex;
+    background-color: transparent;
+}
+.ul{
+    width: 60%;
+    display: flex;
+    position: fixed;
+    list-style: none;
+    margin:3% 0 0 55%;
+}
+.li{
+    font-size: 0.8em;
+    padding-right: 30px;
+}
+.pRight{
+    padding-right: 60px;
+}
+.pLeft{
+    padding-left: 60px;
+}
+.logo{
+    position: fixed;
+    margin:2% 0 0 2%;
+}
+a{
+    text-decoration: none;
+    color:#867772;
+}
+a:hover{
+    color: #ebccc2;
+    transition: 1s;
+    border-bottom: solid 1px;
+}
+.nav1{
+    position: fixed;
+    margin: 15% 0;
+}
+.ul1{
+    list-style: none;
+}
+
+.abstand{
+    height: 40px;
+    border-left: solid 1px rgb(115, 115, 115);
+    margin: 2px 0 7px;
+}
+.li1{
+    display: inline-block;
+    margin-left: 20px;
+}
+.white{
+    color: white;
+}
+.white:hover{
+    border-bottom: none;
+}
+.first{
+    position: relative;
+    left: -7%;
+    top:5px;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    border: solid 1px white;
+    border-radius: 50%;
+}
+.second{
+    margin:3px 0 0 3px;
+    height: 10px;
+    width: 10px;
+    border: solid 1px rgb(115, 115, 115);
+    border-radius: 50%;
+}
+.li2{
+    margin-left: 35px;
+}
+.li2::before{
+    position: relative;
+    content: '';
+    left:-36%;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border: solid 1px rgb(115, 115, 115);
+    border-radius: 50%;
+}
+.a1{
+    color: rgb(115, 115, 115);
+}
+.a1:hover{
+    color: white;
+    text-decoration: none;
+    border-bottom:none;
+}
+#hero{
+    width: 90%;
+    margin: 0 auto;
+}
+.heroH1{
+    color:#ebccc2;
+    font-weight: 100;
+    width: 30%;
+    margin:10% auto;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+}
+.heroImg{
+   width: 100%;
+}
+footer{
+    margin:10% auto;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+.articleH1{
+    color:#ebccc2;
+    font-size: 2em;
+    font-weight: 300;
+}
+.pArticle{
+    color: rgb(115, 115, 115);
+    margin: 5% 0;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+.articleImg{
+    width: 50%;
+}
+article{
+    width: 45%;
+    margin:auto 0;
+}
